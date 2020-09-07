@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     int a,b=0,c;
-    cout<<"enter the number for generating table ?";
+    cout<<"enter the number for generating table?";
     cin>>a;
     do
     {
