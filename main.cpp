@@ -4,16 +4,18 @@ using namespace std;
 
 int main()
 {
-    int a,b=0,c;
-    cout<<"enter the number for generating table ?";
-    cin>>a;
-    do
-    {
-        b++;
-        c=a*b;
-        cout<<a<<"*"<<b<<"="<<c<<endl;
+   int a,b,c;
+   cout<<"enter the number for generating table > ";
+   cin>>a;
+   for(b=1;b<=10;b++)
+  {
+       c=a*b;
+       cout<<a<<"*"<<b<<"="<<c<<endl;
 
-    }while(b<10);
+
+
+  }
+
 
     return 0;
 }
